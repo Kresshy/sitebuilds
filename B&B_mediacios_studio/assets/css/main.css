@@ -326,6 +326,11 @@ nav {
   padding-bottom: 50px;
 }
 
+.content h1 {
+  color: #060d68;
+  margin-bottom: 10px;
+}
+
 .first-column {
   padding-left: 15px;
   padding-right: 15px;
@@ -362,4 +367,27 @@ footer {
   height: 300px;
   background: #F2F1F1;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 30px;
+}
+
+footer li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line-50 {
+  line-height: 50px;
+}
+
+.footer-social {
+  float: left;
+  width: 50px;
+}
+
+.social-title {
+  float: left;
+  margin-left: 20px;
+  line-height: 50px;
+  font-weight: 700;
 }

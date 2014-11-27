@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 /* utils */
 .clearfix {
   clear: both;
@@ -13,6 +12,24 @@
 
 .wrapper-960 {
   width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 0;
+}
+
+.wrapper-float {
+  float: left;
+}
+
+.wrapper-720 {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 0; 
+}
+
+.wrapper-240 {
+  width: 240px;
   margin-left: auto;
   margin-right: auto;
   min-height: 0;
@@ -70,6 +87,12 @@ header {
   padding: 10px;
   color: white;
   background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.header-contact h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 nav {
@@ -133,7 +156,7 @@ nav {
   height: 300px;
   position: relative;
   margin-top: 50px;
-  border-bottom: 5px solid white;
+  /*border-bottom: 5px solid white;*/
   background: #166ba1;
 }
 
@@ -173,4 +196,46 @@ nav {
 
 /* content */
 
+.content {
+  min-height: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.first-column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.second-column {
+  padding-right: 15px;
+}
+
+.side-element-head {
+  height: 50px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #e6e6e6 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e6e6e6)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ffffff 0%,#e6e6e6 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #e6e6e6;
+  border-bottom: 1px solid #2f9bd9;
+  line-height: 30px;
+  padding: 10px;
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.side-element-body {
+  padding: 10px;
+}
+
 /* footer */
+
+footer {
+  height: 300px;
+  background: #F2F1F1;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}

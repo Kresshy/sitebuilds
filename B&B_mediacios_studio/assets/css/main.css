@@ -281,7 +281,7 @@ nav {
   position: relative;
   margin-top: 50px;
   /*border-bottom: 5px solid white;*/
-  background: #166ba1;
+  background: url('../images/mediation.jpg');
 }
 
 .header-carousel:after {

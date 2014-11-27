@@ -36,6 +36,10 @@
   min-height: 0;
 }
 
+.no-list-style {
+  list-style: none;
+}
+
 /* header */
 header {
   height: 540px;
@@ -200,6 +204,41 @@ nav {
   float: left;
   border-right: 1px solid white;
   cursor: pointer;
+  position: relative;
+}
+
+.navigation-item:hover .submenu {
+  display: block;
+}
+
+.submenu {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: 60;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  color: black;
+}
+
+.submenu:hover {
+  display: block;
+}
+
+.submenu li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.submenu li:last-child {
+  border-bottom: none;
+}
+
+.submenu li:hover {
+  color: #2f9bd9;
 }
 
 .navigation-item:hover {

@@ -51,6 +51,10 @@
     to {opacity: 0.95; min-height: 50;}
 }
 
+.link {
+  color: #000;
+}
+
 /* header */
 header {
   height: 540px;
@@ -326,6 +330,7 @@ nav {
   height: 30px;
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .carousel-left {

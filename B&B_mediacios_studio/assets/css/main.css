@@ -3,6 +3,7 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Rajdhani';
 }
 
 /* utils */
@@ -63,14 +64,87 @@ header {
 }
 
 .header-social-icon {
-  width: 22px;
-  height: 22px;
-  margin: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 23px;
+  height: 23px;
+  margin: 2px;
   border-radius: 18px;
   background: white;
   float: right;
+  background: url('../images/sm_icons.png');
 }
+
+.social-rssfeed {
+  background-position: 0 0;
+}
+
+.social-rssfeed:hover {
+  background-position: 0 -24px;
+}
+
+.social-twitter {
+  background-position: -27px 0;
+}
+
+.social-twitter:hover {
+  background-position: -27px -24px;
+}
+
+.social-facebook {
+  background-position: -54px 0;
+}
+
+.social-facebook:hover {
+  background-position: -54px -24px;
+}
+
+.social-myspace {
+  background-position: -80px 0;
+}
+
+.social-myspace:hover {
+  background-position: -80px -24px;
+}
+
+.social-blogger {
+  background-position: -106px 0;
+}
+
+.social-blogger:hover {
+  background-position: -106px -24px;
+}
+
+.social-stumble {
+  background-position: -132px 0;
+}
+
+.social-stumble:hover {
+  background-position: -132px -24px;
+}
+
+.social-google {
+  background-position: -158px 0;
+}
+
+.social-google:hover {
+  background-position: -158px -24px;
+}
+
+.social-flickr {
+  background-position: -184px 0;
+}
+
+.social-flickr:hover {
+  background-position: -184px -24px;
+}
+
+.social-linkedin {
+  background-position: -210px 0;
+}
+
+.social-linkedin:hover {
+  background-position: -210px -24px;
+}
+
 
 .header-items {
   height: 100px;
@@ -78,6 +152,16 @@ header {
 
 .logo {
   float: left;
+}
+
+.header-company {
+  float: left;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.header-company h3 {
+  margin-bottom: 15px;
 }
 
 .header-contact {
@@ -115,6 +199,7 @@ nav {
   line-height: 40px;
   float: left;
   border-right: 1px solid white;
+  cursor: pointer;
 }
 
 .navigation-item:hover {

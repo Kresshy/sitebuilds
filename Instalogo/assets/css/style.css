@@ -383,6 +383,10 @@ nav .contact-us {
 	width: 840px;
 }
 
+#ratings-mobile {
+	display: none;
+}
+
 #ratings-slideshow .stars-list {
 	display: table;
 	margin: 0 auto 15px;
@@ -406,6 +410,34 @@ nav .contact-us {
 }
 
 #ratings-slideshow h6 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+#ratings-mobile .stars-list {
+	display: table;
+	margin: 0 auto 15px;
+}
+
+#ratings-mobile .stars-list div {
+	background-position: 0px -50px;
+	display: inline-block;
+	height: 17px;
+	margin: 0 2px;
+	width: 18px;
+}
+
+#ratings-mobile q {
+	color: #fff;
+	display: block;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+#ratings-mobile h6 {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 800;
@@ -439,7 +471,7 @@ ul.bjqs-controls.v-centered li.bjqs-next a {
 	color: #fff;
 	display: block;
 	font-size: 20px;
-	height: 40px;
+	min-height: 40px;
 	line-height: 38px;
 	text-align: center;
 	width: 375px;
@@ -605,7 +637,6 @@ ul.bjqs-controls.v-centered li.bjqs-next a {
 footer {
 	background-color: #162022;
 	height: 140px;
-	
 }
 
 footer p {
@@ -649,19 +680,152 @@ footer p span {
 
  header {
  	display: none;
+ 	height: 70px;
  }
 
  .tips-tricks-block {
  	width: 286px;
  }
 
+ .how-to-video-section {
+ 	height: 300px;
+ }
+
+ .video-ipad {
+ 	width: 400px;
+ 	background-size: 400px 194px;
+ 	margin-left: -200px;
+ 	height: 194px;
+ }
+
+ #portfolio-slideshow {
+ 	display: none;
+ }
+
+ #portfolio-picture {
+ 	display: block;
+ 	width: 288px;
+ 	height: 164px;
+ 	margin: 0 auto;
+ 	overflow: hidden;
+ }
+
+ #portfolio-picture img {
+ 	width: 288px;
+ }
+
+ #ratings-slideshow {
+ 	display: none;
+ }
+
+ #ratings-mobile {
+ 	display: block;
+ 	width: 360px;
+ 	margin: 0 auto;
+ 	padding: 0 5px;
+ }
+
+ .rating-section .rating-button {
+ 	width: 340px;
+ }
+
+ .rating-section .left-button {
+	float: none;
+ }
+
+ .rating-section .right-button {
+	float: none;
+ }
+
+ .rating-section {
+	height: 400px;
+ }
+
+
+.contact-us-section form {
+	display: block;
+	margin: 0 auto;
+	width: 320px;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 481px) and (max-width : 767px) {
+.contact-us-section input[type="text"],
+.contact-us-section textarea {
+	border: 1px solid #a4a7a8;
+	border-radius: 5px;
+	color: #212121;
+	display: block;
+	font-size: 20px;
+	outline: none;
+}
+
+.contact-us-section input[type="text"] {
+	height: 40px;
+	margin-bottom: 15px;
+	padding: 0 15px;
+	width: 320px;
+}
+
+.contact-us-section .name-input {
+	float: left;
+}
+
+.contact-us-section .mail-input {
+	float: left;
+}
+
+.contact-us-section textarea {
+	height: 80px;
+	margin-bottom: 15px;
+	padding: 8px 15px;
+	resize: none;
+	width: 100%;
+}
+
+.contact-us-section input[type="submit"] {
+	background-color: #fff;
+	border: 1px solid #27abe7;
+	border-radius: 5px;
+	color: #27abe7;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	height: 40px;
+	line-height: 38px;
+	margin: 0 auto;
+	text-align: center;
+	width: 175px;
+}
+
+footer .header-logo {
+	float: left;
+	margin-top: 20px;
+}
+
+footer p {
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	margin-left: 0;
+	line-height: 18px;
+}
+
+footer .social-list {
+	margin-top: 10px;
+	float: left;
+}
+
+footer .social-list li:first-child {
+	margin-left: 0;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 481px) and (max-width : 640px) {
 /* Styles */
  .wrap {
- 	width: 750px;
+ 	width: 600px;
  }
 
  .welcome-section .content {
@@ -684,46 +848,313 @@ footer p span {
 
  header {
  	display: block;
+ 	height: 85px;
  }
 
- .tips-tricks-block {
- 	width: 286px;
+ header .header-logo {
+ 	margin-top: 15px;
+ }
+
+ header .social-list {
+ 	margin-top: 15px;
+ }
+
+ header nav {
+ 	float: left;
+ 	margin: 0 auto;
+ }
+
+ .how-it-works-block {
+ 	margin: 0 30px;
+ }
+
+ .how-to-video-section {
+ 	height: 400px;
+ }
+
+ .video-ipad {
+ 	width: 550px;
+ 	background-size: 550px 267px;
+ 	margin-left: -275px;
+ 	height: 267px;
+ }
+
+ #portfolio-slideshow {
+ 	display: none;
+ }
+
+ #portfolio-picture {
+ 	display: block;
+ 	width: 288px;
+ 	height: 267px;
+ 	margin: 0 auto;
+ 	overflow: hidden;
+ }
+
+ #portfolio-picture img {
+ 	width: 288px;
+ }
+
+ #ratings-slideshow {
+ 	display: none;
+ }
+
+ #ratings-mobile {
+ 	display: block;
+ 	width: 360px;
+ 	margin: 0 auto;
+ 	padding: 0 5px;
+ }
+
+ .rating-section .wrap {
+ 	width: 600px;
+ }
+
+ .rating-section .rating-button {
+ 	margin: 0 auto;
+ 	width: 375px;
+ }
+
+ .rating-section .left-button {
+	float: none;
+ }
+
+ .rating-section .right-button {
+	float: none;
+ }
+
+ .rating-section {
+	height: 400px;
  }
 
 
+.contact-us-section form {
+	display: block;
+	margin: 0 auto;
+	width: 320px;
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1223px) {
+.contact-us-section input[type="text"],
+.contact-us-section textarea {
+	border: 1px solid #a4a7a8;
+	border-radius: 5px;
+	color: #212121;
+	display: block;
+	font-size: 20px;
+	outline: none;
+}
+
+.contact-us-section input[type="text"] {
+	height: 40px;
+	margin-bottom: 15px;
+	padding: 0 15px;
+	width: 320px;
+}
+
+.contact-us-section .name-input {
+	float: left;
+}
+
+.contact-us-section .mail-input {
+	float: left;
+}
+
+.contact-us-section textarea {
+	height: 80px;
+	margin-bottom: 15px;
+	padding: 8px 15px;
+	resize: none;
+	width: 100%;
+}
+
+.contact-us-section input[type="submit"] {
+	background-color: #fff;
+	border: 1px solid #27abe7;
+	border-radius: 5px;
+	color: #27abe7;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	height: 40px;
+	line-height: 38px;
+	margin: 0 auto;
+	text-align: center;
+	width: 175px;
+}
+
+footer .header-logo {
+	float: left;
+	margin-top: 20px;
+}
+
+footer p {
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	margin-left: 0;
+	line-height: 18px;
+}
+
+footer .social-list {
+	width: 300px;
+	margin-top: 10px;
+	float: left;
+}
+
+footer .social-list li:first-child {
+	margin-left: 0;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 641px) and (max-width : 768px) {
 /* Styles */
-  .wrap {
- 	width: 1000px;
- }
-
- .welcome-section .content {
- 	padding-top: 105px;
- }
-
- .welcome-section .logo {
- 	height: 80px;
- 	width: 400px;
- }
-
- .welcome-section .logo img {
- 	width: 400px;
- }
-
- .welcome-section h2 {
-	font-size: 30px;
+ /* Styles */
+ .wrap {
+ 	width: 700px;
  }
 
  header {
  	display: block;
  }
 
- .tips-tricks-block {
- 	width: 175px;
+ header nav {
+ 	float: left;
+ 	margin: 0 auto;
  }
+
+ .tips-tricks-block {
+ 	margin: 0 25px;
+ }
+
+ .how-it-works-block {
+ 	margin: 0 50px;
+ }
+
+ .how-to-video-section {
+ 	height: 400px;
+ }
+
+ .video-ipad {
+ 	width: 550px;
+ 	background-size: 550px 267px;
+ 	margin-left: -275px;
+ 	height: 267px;
+ }
+
+ #portfolio-slideshow {
+ 	display: block;
+ }
+
+ #ratings-slideshow {
+ 	display: block;
+ }
+
+ .rating-section .rating-button {
+ 	margin: 0 auto;
+ 	width: 372px;
+ }
+
+ .rating-section .left-button {
+	float: left;
+ }
+
+ .rating-section .right-button {
+	float: right;
+ }
+
+ .rating-section {
+	height: 300px;
+ }
+
+.contact-us-section form {
+	display: block;
+	margin: 0 auto;
+	width: 320px;
+}
+
+.contact-us-section input[type="text"],
+.contact-us-section textarea {
+	border: 1px solid #a4a7a8;
+	border-radius: 5px;
+	color: #212121;
+	display: block;
+	font-size: 20px;
+	outline: none;
+}
+
+.contact-us-section input[type="text"] {
+	height: 40px;
+	margin-bottom: 15px;
+	padding: 0 15px;
+	width: 320px;
+}
+
+.contact-us-section .name-input {
+	float: left;
+}
+
+.contact-us-section .mail-input {
+	float: left;
+}
+
+.contact-us-section textarea {
+	height: 80px;
+	margin-bottom: 15px;
+	padding: 8px 15px;
+	resize: none;
+	width: 100%;
+}
+
+.contact-us-section input[type="submit"] {
+	background-color: #fff;
+	border: 1px solid #27abe7;
+	border-radius: 5px;
+	color: #27abe7;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	height: 40px;
+	line-height: 38px;
+	margin: 0 auto;
+	text-align: center;
+	width: 175px;
+}
+
+footer .header-logo {
+	float: left;
+	margin-top: 20px;
+}
+
+footer p {
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	margin-left: 0;
+	line-height: 18px;
+}
+
+footer .social-list {
+	width: 300px;
+	margin-top: 10px;
+	float: left;
+}
+
+footer .social-list li:first-child {
+	margin-left: 0;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 769px) and (max-width : 1223px) {
+/* Styles */
+  /* Styles */
+ .wrap {
+ 	width: 1000px;
+ }
+
 }
 
 /* Desktops and laptops ----------- */
@@ -732,10 +1163,4 @@ footer p span {
  .wrap {
  	width: 1000px;
  }
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-
 }

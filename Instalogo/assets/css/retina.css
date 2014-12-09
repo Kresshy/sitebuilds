@@ -1,0 +1,8 @@
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+	.welcome-phones {
+		background-image: url('../images/welcome-phones@2x.png');
+		background-size: 971px 351px;
+	}
+}

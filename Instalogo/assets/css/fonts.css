@@ -1,0 +1,15 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("http://hello.myfonts.net/count/2cc852");
+
+  
+@font-face {font-family: 'TextaAlt'; font-weight: 800;src: url('../fonts/2CC852_0_0.eot');src: url('../fonts/2CC852_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CC852_0_0.woff2') format('woff2'),url('../fonts/2CC852_0_0.woff') format('woff'),url('../fonts/2CC852_0_0.ttf') format('truetype'),url('../fonts/2CC852_0_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'TextaAlt'; font-weight: normal;src: url('../fonts/2CC852_1_0.eot');src: url('../fonts/2CC852_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CC852_1_0.woff2') format('woff2'),url('../fonts/2CC852_1_0.woff') format('woff'),url('../fonts/2CC852_1_0.ttf') format('truetype'),url('../fonts/2CC852_1_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'TextaAlt'; font-weight: 700; src: url('../fonts/2CC852_2_0.eot');src: url('../fonts/2CC852_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CC852_2_0.woff2') format('woff2'),url('../fonts/2CC852_2_0.woff') format('woff'),url('../fonts/2CC852_2_0.ttf') format('truetype'),url('../fonts/2CC852_2_0.svg#wf') format('svg');}
+ 
+  
+@font-face {font-family: 'TextaAlt'; font-weight: 600;src: url('../fonts/2CC852_3_0.eot');src: url('../fonts/2CC852_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CC852_3_0.woff2') format('woff2'),url('../fonts/2CC852_3_0.woff') format('woff'),url('../fonts/2CC852_3_0.ttf') format('truetype'),url('../fonts/2CC852_3_0.svg#wf') format('svg');}
+ 

@@ -1,0 +1,741 @@
+* {
+	box-sizing: border-box;
+	font-family: 'TextaAlt', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.clear:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.use-sprite,
+ul.bjqs-controls.v-centered li a {
+	background-color: transparent;
+	background-image: url('../images/icon-sprite@2x.png');
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #fff;
+	height: auto!important;
+}
+
+section {
+	position: relative;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.welcome-section {
+	background-color: #000;
+	overflow: hidden;
+}
+
+.bg-layer {
+	background-size: cover;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.welcome-section .bg-layer {
+	background: transparent url('../images/welcome-bg@2x.jpg') top center no-repeat;
+}
+
+.content {
+	position: relative;
+	z-index: 2;
+}
+
+.welcome-section .content {
+	padding-top: 105px;
+}
+
+.welcome-section .logo {
+	height: 80px;
+	margin: 0 auto 15px;
+	width: 400px;
+	
+	-webkit-transition: all 3s cubic-bezier(.15,.97,.49,.97) 2s;
+	-moz-transition: all 3s cubic-bezier(.15,.97,.49,.97) 2s;
+	-o-transition: all 3s cubic-bezier(.15,.97,.49,.97) 2s;
+	-ms-transition: all 3s cubic-bezier(.15,.97,.49,.97) 2s;
+	transition: all 3s cubic-bezier(.15,.97,.49,.97) 2s;
+	
+	-webkit-transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-o-transform: translateY(100px);
+	-ms-transform: translateY(100px);
+	transform: translateY(100px);
+	opacity: 0;
+}
+
+.welcome-section .logo.on {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.welcome-section .logo img {
+	display: block;
+	width: 400px;
+}
+
+.welcome-section h2 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 30px;
+	
+	-webkit-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1.5s;
+	-moz-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1.5s;
+	-o-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1.5s;
+	-ms-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1.5s;
+	transition: all 3s cubic-bezier(.15,.97,.49,.97) 1.5s;
+	
+	-webkit-transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-o-transform: translateY(100px);
+	-ms-transform: translateY(100px);
+	transform: translateY(100px);
+	opacity: 0;
+}
+
+.welcome-section h2.on {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.welcome-section h2 b {
+	font-weight: 700;
+}
+
+.app-store {
+	border-radius: 5px;
+	border: 1px solid #27abe7;
+	color: #27abe7;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	margin: 40px auto;
+	text-align: center;
+	width: 240px;
+	
+	-webkit-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1s;
+	-moz-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1s;
+	-o-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1s;
+	-ms-transition: all 3s cubic-bezier(.15,.97,.49,.97) 1s;
+	transition: all 3s cubic-bezier(.15,.97,.49,.97) 1s;
+	
+	-webkit-transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-o-transform: translateY(100px);
+	-ms-transform: translateY(100px);
+	transform: translateY(100px);
+	opacity: 0;
+}
+
+.app-store.on {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.welcome-phones {
+	background: transparent url('../images/welcome-phones.png') center center no-repeat;
+	bottom: 0;
+	height: 351px;
+	left: 50%;
+	margin-left: -485px;
+	position: absolute;
+	width: 971px;
+	
+	-webkit-transition: all 3s cubic-bezier(.15,.97,.49,.97) 0.5s;
+	-moz-transition: all 3s cubic-bezier(.15,.97,.49,.97) 0.5s;
+	-o-transition: all 3s cubic-bezier(.15,.97,.49,.97) 0.5s;
+	-ms-transition: all 3s cubic-bezier(.15,.97,.49,.97) 0.5s;
+	transition: all 3s cubic-bezier(.15,.97,.49,.97) 0.5s;
+	
+	-webkit-transform: translateY(200px) scale(1.05);
+	-moz-transform: translateY(200px) scale(1.05);
+	-o-transform: translateY(200px) scale(1.05);
+	-ms-transform: translateY(200px) scale(1.05);
+	transform: translateY(200px) scale(1.05);
+	opacity: 0;
+}
+
+.welcome-phones.on {
+	-webkit-transform: translateY(0) scale(1);
+	-moz-transform: translateY(0) scale(1);
+	-o-transform: translateY(0) scale(1);
+	-ms-transform: translateY(0) scale(1);
+	transform: translateY(0) scale(1);
+	opacity: 1;
+}
+
+header {
+	background-color: #27abe7;
+	height: 140px;
+}
+
+header.fixed {
+	left: 0;
+	top: 0;
+	position: fixed;
+	right: 0;
+	z-index: 99;
+}
+
+.header-spacer {
+	height: 140px;
+	display: none;
+}
+
+.header-logo {
+	float: left;
+	margin-top: 52px;
+}
+
+.header-logo img {
+	display: block;
+	width: 175px;
+}
+
+.social-list {
+	float: right;
+	margin-top: 55px;
+}
+
+.social-list li {
+	float: left;
+	margin-left: 15px;
+}
+
+.social-list li a {
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+.social-list .fb-icon {
+	background-position: 0px 0px;
+}
+
+.social-list .twitter-icon {
+	background-position: -50px 0px;
+}
+
+.social-list .google-icon {
+	background-position: -100px 0px;
+}
+
+nav {
+	float: right;
+	margin-top: 55px;
+	margin-right: 10px;
+}
+
+nav a {
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+nav a.on {
+	font-weight: 700;
+}
+
+nav .how-it-works {
+	width: 113px;
+}
+
+nav .how-to-video {
+	width: 115px;
+}
+
+nav .tips-tricks {
+	width: 105px;
+}
+
+nav .porfolio {
+	width: 83px;
+}
+
+nav .contact-us {
+	width: 96px;
+}
+
+.simple-section {
+	padding-top: 50px;
+	padding-bottom: 55px;
+}
+ 
+.simple-section h2 {
+	color: #27abe7;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.how-it-works-block {
+	float: left;
+	height: 270px;
+	margin: 0 46px;
+	text-align: center;
+	width: 240px;
+}
+
+.how-it-works-block .icon {
+	height: 70px;
+	margin: 0 auto 18px;
+	width: 70px;
+}
+
+.how-it-works-block.block-step-1 .icon {
+	background-position: -150px 0px;
+}
+
+.how-it-works-block.block-step-2 .icon {
+	background-position: 0px -100px;
+}
+
+.how-it-works-block.block-step-3 .icon {
+	background-position: -100px -100px;
+}
+
+.how-it-works-block h4 {
+	color: #212121;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 16px;
+	margin-bottom: 15px;
+}
+
+.how-it-works-block h3 {
+	color: #27abe7;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.how-it-works-block p {
+	color: #212121;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.rating-section,
+.porfolio-section {
+	background-color: #145a7a;
+	height: 275px;
+	overflow: hidden;
+	padding-top: 55px;
+}
+
+.rating-section .bg-layer,
+.porfolio-section .bg-layer {
+	background: transparent url('../images/ratings-bg@2x.jpg') top center no-repeat;
+	background-size: 1600px 800px;
+	height: 400px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#ratings-slideshow {
+	height: 145px;
+	margin: 0 auto 10px;
+	text-align: center;
+	width: 840px;
+}
+
+#ratings-slideshow .stars-list {
+	display: table;
+	margin: 0 auto 15px;
+}
+
+#ratings-slideshow .stars-list div {
+	background-position: 0px -50px;
+	display: inline-block;
+	height: 17px;
+	margin: 0 2px;
+	width: 18px;
+}
+
+#ratings-slideshow q {
+	color: #fff;
+	display: block;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+#ratings-slideshow h6 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.rating-section .wrap {
+	width: 762px;
+}
+
+ul.bjqs-controls.v-centered li a {
+	display: block;
+	height: 46px;
+	overflow: hidden;
+	text-indent: 30px;
+	width: 23px;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+	background-position: -50px -50px;
+	left: -80px;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+	background-position: -100px -50px;
+	right: -80px;
+}
+
+.rating-section .rating-button {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 38px;
+	text-align: center;
+	width: 375px;
+}
+
+.rating-section .rating-button b {
+	font-size: 700;
+}
+
+.rating-section .left-button {
+	float: left;
+}
+
+.rating-section .right-button {
+	float: right;
+}
+
+.how-to-video-section {
+	background-color: #162022;
+	height: 530px;
+}
+
+.how-to-video-section h2 {
+	font-weight: normal;
+	position: relative;
+	z-index: 2;
+}
+
+.how-to-video-section h2 b {
+	font-weight: 800;
+}
+
+.video-ipad {
+	background: transparent url('../images/video-ipad@2x.jpg') center center no-repeat;
+	background-size: 1000px 485px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -500px;
+	height: 485px;
+	padding: 125px 180px 0 180px;
+	position: absolute;
+	width: 1000px;
+	z-index: 1;
+}
+
+.trips-trick-section h2,
+.porfolio-section h2,
+.contact-us-section h2 {
+	font-weight: normal;
+}
+
+.trips-trick-section h2 b,
+.porfolio-section h2 b, {
+.contact-us-section h2 b
+	font-weight: 800;
+}
+
+.tips-tricks-block {
+	float: left;
+	height: 180px;
+	margin: 0 12px;
+	text-align: center;
+	width: 175px;
+}
+
+.tips-tricks-block .icon {
+	background-position: -200px -100px;
+	height: 40px;
+	margin: 0 auto 20px;
+	width: 25px;
+}
+
+.tips-tricks-block p {
+	color: #212121;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+.porfolio-section {
+	height: 320px;
+}
+
+.porfolio-section h2 {
+	color: #fff;
+}
+
+#portfolio-slideshow {
+	height: 162px;
+	margin: 0 auto;
+	text-align: center;
+	width: 864px;
+}
+
+#portfolio-slideshow img {
+	float: left!important;
+	height: 162px!important;
+	width: 288px!important;
+}
+
+.contact-us-section p {
+	color: #212121;
+	font-size: 20px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.contact-us-section form {
+	display: block;
+	margin: 0 auto;
+	width: 762px;
+}
+
+.contact-us-section input[type="text"],
+.contact-us-section textarea {
+	border: 1px solid #a4a7a8;
+	border-radius: 5px;
+	color: #212121;
+	display: block;
+	font-size: 20px;
+	outline: none;
+}
+
+.contact-us-section input[type="text"] {
+	height: 40px;
+	margin-bottom: 15px;
+	padding: 0 15px;
+	width: 375px;
+}
+
+.contact-us-section .name-input {
+	float: left;
+}
+
+.contact-us-section .mail-input {
+	float: right;
+}
+
+.contact-us-section textarea {
+	height: 80px;
+	margin-bottom: 15px;
+	padding: 8px 15px;
+	resize: none;
+	width: 100%;
+}
+
+.contact-us-section input[type="submit"] {
+	background-color: #fff;
+	border: 1px solid #27abe7;
+	border-radius: 5px;
+	color: #27abe7;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	height: 40px;
+	line-height: 38px;
+	margin: 0 auto;
+	text-align: center;
+	width: 175px;
+}
+
+footer {
+	background-color: #162022;
+	height: 140px;
+	
+}
+
+footer p {
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	margin-left: 25px;
+	line-height: 140px;
+}
+
+footer p span {
+	color: #27abe7;
+}
+
+/* responsive design breakpoints */
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 480px) {
+/* Styles */
+ .wrap {
+ 	width: 310px;
+ }
+
+ .welcome-section .content {
+ 	padding-top: 60px;
+ }
+
+ .welcome-section .logo {
+ 	height: 30px;
+ 	width: 300px;
+ 	margin-bottom: 30px;
+ }
+
+ .welcome-section .logo img {
+ 	width: 300px;
+ }
+
+ .welcome-section h2 {
+	font-size: 20px;
+ }
+
+ header {
+ 	display: none;
+ }
+
+ .tips-tricks-block {
+ 	width: 286px;
+ }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 481px) and (max-width : 767px) {
+/* Styles */
+ .wrap {
+ 	width: 750px;
+ }
+
+ .welcome-section .content {
+ 	padding-top: 60px;
+ }
+
+ .welcome-section .logo {
+ 	height: 30px;
+ 	width: 300px;
+ 	margin-bottom: 30px;
+ }
+
+ .welcome-section .logo img {
+ 	width: 300px;
+ }
+
+ .welcome-section h2 {
+	font-size: 20px;
+ }
+
+ header {
+ 	display: block;
+ }
+
+ .tips-tricks-block {
+ 	width: 286px;
+ }
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1223px) {
+/* Styles */
+  .wrap {
+ 	width: 1000px;
+ }
+
+ .welcome-section .content {
+ 	padding-top: 105px;
+ }
+
+ .welcome-section .logo {
+ 	height: 80px;
+ 	width: 400px;
+ }
+
+ .welcome-section .logo img {
+ 	width: 400px;
+ }
+
+ .welcome-section h2 {
+	font-size: 30px;
+ }
+
+ header {
+ 	display: block;
+ }
+
+ .tips-tricks-block {
+ 	width: 175px;
+ }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+ .wrap {
+ 	width: 1000px;
+ }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+
+}

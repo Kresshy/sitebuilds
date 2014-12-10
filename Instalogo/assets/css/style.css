@@ -1056,9 +1056,12 @@ footer .social-list li:first-child {
  }
 
  .tips-tricks-block {
- 	margin-top: 10px;
- 	margin-bottom: 10px;
+ 	margin: 10px 35px;
  	width: 286px;
+ }
+
+ .how-it-works-block {
+ 	margin: 10px 60px;
  }
 
  .how-to-video-section {

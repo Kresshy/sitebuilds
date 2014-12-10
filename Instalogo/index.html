@@ -208,11 +208,11 @@
 			<h2><b>contact</b> us</h2>
 			<div class="wrap clear">
 				<p>Do You have any questions, comments for us? Just send us a message in the form below.</p>
-				<form>
-					<input type="text" class="name-input" id="name-input" placeholder="Your name" data-bottom-top="opacity: 0; transform: translate3d(-200px, 0px, 0px);" data-300-end="opacity: 1; transform: translate3d(0px, 0px, 0px);" />
-					<input type="text" class="mail-input" id="mail-input" placeholder="Your mail address" data-bottom-top="opacity: 0; transform: translate3d(200px, 0px, 0px);" data-300-end="opacity: 1; transform: translate3d(0px, 0px, 0px);" />
+				<form method="post" action="/instalogo/email.php" name="emailform">
+					<input name="name" type="text" class="name-input" id="name-input" placeholder="Your name" data-bottom-top="opacity: 0; transform: translate3d(-200px, 0px, 0px);" data-300-end="opacity: 1; transform: translate3d(0px, 0px, 0px);" />
+					<input name="email" type="text" class="mail-input" id="mail-input" placeholder="Your mail address" data-bottom-top="opacity: 0; transform: translate3d(200px, 0px, 0px);" data-300-end="opacity: 1; transform: translate3d(0px, 0px, 0px);" />
 					<div class="clear"></div>
-					<textarea placeholder="Your message" id="message-input" data-bottom-top="opacity: 0; transform: translate3d(0px, 200px, 0px);" data-300-end="opacity: 1; transform: translate3d(0px, 0px, 0px);"></textarea>
+					<textarea name="message" placeholder="Your message" id="message-input" data-bottom-top="opacity: 0; transform: translate3d(0px, 200px, 0px);" data-300-end="opacity: 1; transform: translate3d(0px, 0px, 0px);"></textarea>
 					<input type="submit" value="send the message" data-bottom-top="opacity: 0; transform: translate3d(0px, 200px, 0px);" data-300-end="opacity: 1; transform: translate3d(0px, 0px, 0px);" />
 				</form>
 			</div>

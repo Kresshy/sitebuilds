@@ -71,6 +71,7 @@
 		<section class="rating-section">
 			<div class="bg-layer" data-bottom-top="transform: translateY(-125px);" data-top-bottom="transform: translateY(0px);"></div>
 			<div class="content">
+				<div class="wrap">
 				<div id="ratings-slideshow">
 				    <ul class="bjqs">
 				        <li>
@@ -142,7 +143,7 @@
 						<h6>Benjtee</h6>
 
 				</div>
-				<div class="wrap">
+				
 				<a href="#" class="rating-button left-button"><?php echo lang('INTERESTED');?></a>
 				<a href="#" class="rating-button right-button"><?php echo lang('ALREADY_USER');?></a>
 				</div>
@@ -184,7 +185,7 @@
 		<section id="porfolio" class="simple-section porfolio-section">
 			<div class="bg-layer" data-bottom-top="transform: translateY(-80px);" data-top-bottom="transform: translateY(0px);"></div>
 			<div class="content">
-				<h2><?php echo lang('PORTFOLIO_TITLE');?></b></h2>
+				<h2><?php echo lang('PORTFOLIO_TITLE');?></h2>
 				<div id="portfolio-slideshow">
 				    <ul class="bjqs">
 				        <li>

@@ -32,7 +32,7 @@ function lang($phrase){
         'TIP3' => 'Tap the screen<br />with two fingers to<br />hide the tool box.<br />And again to<br />bring it back.',
         'TIP4' => 'Rotate objects by<br />touching each side of<br />the object with your<br />index fingers.<br />Then rotate.',
         'TIP5' => 'Double tap<br />an object to<br />flip it horizontally.',
-        'POTFOLIO_TITLE' => 'see our <b>portfolio</b>',
+        'PORTFOLIO_TITLE' => 'see our <b>portfolio</b>',
         'CONTACT_US_TITLE' => '<b>contact</b> us',
         'QUESTION' => 'Do You have any questions, comments for us? Just send us a message in the form below.',
         'COPYRIGHT' => 'Copyright © 2012-2014 Adam Meszaros  <span>•</span>  All Rights Reserved'

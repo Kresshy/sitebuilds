@@ -1,12 +1,10 @@
 
-<html>
-<body>
+<?php
 
-Welcome <?php echo $_POST['name']; ?><br>
-Your email address is: <?php echo $_POST['email']; ?>
+echo "My first PHP script!";
 
-</body>
-</html>
+?>
+
 
 <?php
   
@@ -14,28 +12,38 @@ Your email address is: <?php echo $_POST['email']; ?>
   $email = $_POST['email'];
   $message = $_POST['message'];
 
+  echo "$name $email";
+
+  
   //Validate first
   if(empty($name)||empty($email)) {
-    echo "Name and email are mandatory!";
+    echo "Name and email are mandatory!\n\n";
     exit;
+  } else {
+    echo "everything is filled right\n\n";
   }
-
+  
+  
   if(IsInjected($email)) {
-    echo "Bad email value!";
+    echo "Bad email value!\n\n";
     exit;
+  } else {
+    echo "this is a valid email address\n\n";
   }
-
+  
   $email_from = $email;
-  $email_subject = 'Contact - ' + $name;
-  $email_body = $message
+  $email_subject = "Contact $name";
+  $email_body = $message;
 
   $to = "kresshy@gmail.com"; 
   $headers = "From: $email_from \r\n";
   $headers .= "Reply-To: $email \r\n";
   
+  echo "\n\n $email_from\n $email_subject\n $email_body\n $to\n $headers\n";
+
   mail($to, $email_subject, $email_body, $headers);
 
-  // header('Location: index.html');
+  header('Location: index.html');
 
   // Function to validate against any email injection attempts
   function IsInjected($str) {
@@ -55,5 +63,5 @@ Your email address is: <?php echo $_POST['email']; ?>
     } else {
       return false;
     }
-  } 
+  }
 ?>

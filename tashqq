@@ -1,0 +1,72 @@
+[1mdiff --git a/Instalogo/assets/css/bjqs.css b/Instalogo/assets/css/bjqs.css[m
+[1mindex 5e5fdb8..792a13e 100644[m
+[1m--- a/Instalogo/assets/css/bjqs.css[m
+[1m+++ b/Instalogo/assets/css/bjqs.css[m
+[36m@@ -1,7 +1,7 @@[m
+ /* Basic jQuery Slider essential styles */[m
+ [m
+[31m-ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}[m
+[31m-li.bjqs-slide{position:absolute; display:none;}[m
+[32m+[m[32mul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none; height: 162px;}[m
+[32m+[m[32mli.bjqs-slide{position:absolute; display:none; height: 162px;}[m
+ ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}[m
+ ul.bjqs-controls.v-centered li a{position:absolute;}[m
+ ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}[m
+[1mdiff --git a/Instalogo/assets/css/style.css b/Instalogo/assets/css/style.css[m
+[1mindex f624937..9c6624f 100644[m
+[1m--- a/Instalogo/assets/css/style.css[m
+[1m+++ b/Instalogo/assets/css/style.css[m
+[36m@@ -655,6 +655,11 @@[m [mfooter p span {[m
+  	width: 286px;[m
+  }[m
+ [m
+[32m+[m[32m #portfolio-slideshow {[m
+[32m+[m[41m [m	[32mwidth: 288px;[m
+[32m+[m[41m [m	[32mheight: 162px;[m
+[32m+[m[32m }[m
+[32m+[m
+ }[m
+ [m
+ /* Smartphones (portrait and landscape) ----------- */[m
+[36m@@ -690,6 +695,10 @@[m [mfooter p span {[m
+  	width: 286px;[m
+  }[m
+ [m
+[32m+[m[32m #portfolio-slideshow {[m
+[32m+[m[41m [m	[32mwidth: 288px;[m
+[32m+[m[41m [m	[32mheight: 162px;[m
+[32m+[m[32m }[m
+ [m
+ }[m
+ [m
+[36m@@ -724,6 +733,11 @@[m [mfooter p span {[m
+  .tips-tricks-block {[m
+  	width: 175px;[m
+  }[m
+[32m+[m
+[32m+[m[32m #portfolio-slideshow {[m
+[32m+[m[41m [m	[32mwidth: 864px;[m
+[32m+[m[41m [m	[32mheight: 162px;[m
+[32m+[m[32m }[m
+ }[m
+ [m
+ /* Desktops and laptops ----------- */[m
+[36m@@ -732,10 +746,4 @@[m [mfooter p span {[m
+  .wrap {[m
+  	width: 1000px;[m
+  }[m
+[31m-}[m
+[31m-[m
+[31m-/* Large screens ----------- */[m
+[31m-@media only screen  and (min-width : 1824px) {[m
+[31m-/* Styles */[m
+[31m-[m
+[31m-}[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+warning: LF will be replaced by CRLF in Instalogo/assets/js/js.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Instalogo/assets/css/bjqs.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Instalogo/assets/css/style.css.
+The file will have its original line endings in your working directory.

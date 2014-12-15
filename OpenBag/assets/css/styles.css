@@ -722,3 +722,74 @@ a,img {	border: none; outline:none;}
 #lbCloseLink{display:block;float:right;width:66px;height:22px;background:transparent url(../images/closelabel.gif) no-repeat center;margin:5px 0;outline:none;}
 #lbCaption,#lbNumber{margin-right:71px;}
 #lbCaption{font-weight:700;}
+
+.grey {
+	background: #EDECE8;
+}
+
+.white {
+	background: #FFFFFF;
+}
+
+.green-text {
+	color: #84B947;
+}
+
+.purple-text {
+	color: #BE4669;
+}
+
+.blue-text {
+	color: #82B1C1;
+}
+
+.brown-text {
+	color: #925329;
+}
+
+.left-container {
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.right-container {
+	box-sizing: border-box;
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.padding-container {
+	padding: 20px;
+}
+
+.left-container h1 {
+font-family: 'annifontitalic',Sans-Serif;
+font-size: 24px;
+padding: 25px 0 10px 0;
+}
+
+.left-container h2 {
+font-family: 'annifontitalic',Sans-Serif;
+font-size: 14px;
+padding: 25px 0 10px 0;
+}
+
+.right-container h1 {
+font-family: 'annifontitalic',Sans-Serif;
+font-size: 24px;
+padding: 25px 0 10px 0;
+}
+
+.right-container h2 {
+font-family: 'annifontitalic',Sans-Serif;
+font-size: 14px;
+padding: 25px 0 10px 0;
+}
+
+.showcase-image {
+	width: 100%;
+}
+

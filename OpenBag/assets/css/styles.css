@@ -772,8 +772,9 @@ padding: 25px 0 10px 0;
 }
 
 .left-container h2 {
-font-family: 'annifontitalic',Sans-Serif;
+font-family: Sans-Serif;
 font-size: 14px;
+font-weight: bold;
 padding: 25px 0 10px 0;
 }
 
@@ -784,8 +785,9 @@ padding: 25px 0 10px 0;
 }
 
 .right-container h2 {
-font-family: 'annifontitalic',Sans-Serif;
+font-family: Sans-Serif;
 font-size: 14px;
+font-weight: bold;
 padding: 25px 0 10px 0;
 }
 

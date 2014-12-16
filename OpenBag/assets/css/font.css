@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'annifontitalic';
-    src: url('fonts/AnnifontExt.ttf') format('truetype');
+    src: url('../fonts/AnnifontExt.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'bebas';
-    src: url('fonts/bebas.ttf') format('truetype');
+    src: url('../fonts/bebas.ttf') format('truetype');
 }
